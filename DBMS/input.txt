@@ -1,0 +1,12 @@
+create database 1;
+create database 2;
+use 1;
+create table 11 (name, age ,sex);
+insert into 11 (name, age,sex) values (1,1,1);
+select * from 11;
+use 2;
+create table 22 (name, age ,sex);
+insert into 22 (name, age,sex) values (2,2,2);
+select * from 22;
+use 1;
+select * from 22;

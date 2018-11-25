@@ -1,0 +1,34 @@
+create table userdata(
+u_name varchar(30) NOT NULL,
+u_password varchar(30) PRIMARY KEY,
+u_aadhar varchar(30) NOT NULL,
+u_bank varchar(30) NOT NULL,
+u_amount varchar(30) NOT NULL
+);
+
+
+create table train(
+Train varchar(50) PRIMARY KEY,
+Station_list varchar(500) NOT NULL,
+days varchar(60) NOT NULL,
+State varchar(30) NOT NULL
+);
+
+
+
+create table station(
+Station varchar(30) NOT NULL
+);
+
+
+create table bookings(
+u_name varchar(30) NOT NULL,
+pre varchar(30) NOT NULL,
+Ticket varchar(30) NOT NULL,
+Journey varchar(30) NOT NULL,
+Amount varchar(40) NOT NULL
+);
+
+create table admin(
+a_name varchar(30) NOT NULL,a_password varchar(30) NOT NULL
+);
